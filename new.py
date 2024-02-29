@@ -10,12 +10,12 @@ load_dotenv()
 # JSearch API endpoint and headers
 url = "https://jsearch.p.rapidapi.com/search"
 headers = {
-    "X-RapidAPI-Key": "78de5d7136msh95cc7d89e509b29p129654jsnf707f12324c1",
+    "X-RapidAPI-Key": "",
     "X-RapidAPI-Host": "jsearch.p.rapidapi.com"
 }
 
 # openai_api_key = os.getenv('OPENAI_API_KEY')
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 """
 # Function to retrieve job listings from JSearch API
